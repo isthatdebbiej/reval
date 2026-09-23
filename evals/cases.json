@@ -1,0 +1,242 @@
+[
+  {
+    "id": "audit-learning-01",
+    "skill": "reval-audit",
+    "domain": "learning",
+    "split": "development",
+    "prompt": "Audit the reported autonomous placement result. What conclusions are justified?",
+    "artifacts": [
+      "evals/fixtures/audit-learning-01/evidence.json"
+    ]
+  },
+  {
+    "id": "audit-learning-02",
+    "skill": "reval-audit",
+    "domain": "learning",
+    "split": "development",
+    "prompt": "Review whether this held-out generalization claim is supported.",
+    "artifacts": [
+      "evals/fixtures/audit-learning-02/evidence.json"
+    ]
+  },
+  {
+    "id": "audit-ros-01",
+    "skill": "reval-audit",
+    "domain": "ros",
+    "split": "development",
+    "prompt": "Audit this navigation evaluation summary and explain the denominators.",
+    "artifacts": [
+      "evals/fixtures/audit-ros-01/evidence.json"
+    ]
+  },
+  {
+    "id": "audit-ros-02",
+    "skill": "reval-audit",
+    "domain": "ros",
+    "split": "development",
+    "prompt": "Can this study establish that controller B is faster?",
+    "artifacts": [
+      "evals/fixtures/audit-ros-02/evidence.json"
+    ]
+  },
+  {
+    "id": "failures-learning-01",
+    "skill": "reval-failures",
+    "domain": "learning",
+    "split": "development",
+    "prompt": "Review this episode and organize observations, candidate causes, and next evidence.",
+    "artifacts": [
+      "evals/fixtures/failures-learning-01/evidence.json"
+    ]
+  },
+  {
+    "id": "failures-learning-02",
+    "skill": "reval-failures",
+    "domain": "learning",
+    "split": "development",
+    "prompt": "Summarize failure categories and their prevalence from this review sample.",
+    "artifacts": [
+      "evals/fixtures/failures-learning-02/evidence.json"
+    ]
+  },
+  {
+    "id": "failures-ros-01",
+    "skill": "reval-failures",
+    "domain": "ros",
+    "split": "development",
+    "prompt": "Analyze the event sequence and identify what remains uncertain.",
+    "artifacts": [
+      "evals/fixtures/failures-ros-01/evidence.json"
+    ]
+  },
+  {
+    "id": "failures-ros-02",
+    "skill": "reval-failures",
+    "domain": "ros",
+    "split": "development",
+    "prompt": "Use these sources to describe the collision sequence.",
+    "artifacts": [
+      "evals/fixtures/failures-ros-02/evidence.json"
+    ]
+  },
+  {
+    "id": "score-learning-01",
+    "skill": "reval-score",
+    "domain": "learning",
+    "split": "development",
+    "prompt": "Check these evaluator labels against the task and propose corrected criteria.",
+    "artifacts": [
+      "evals/fixtures/score-learning-01/evidence.json"
+    ]
+  },
+  {
+    "id": "score-learning-02",
+    "skill": "reval-score",
+    "domain": "learning",
+    "split": "development",
+    "prompt": "Calculate evaluator validation counts and explain abstentions.",
+    "artifacts": [
+      "evals/fixtures/score-learning-02/evidence.json"
+    ]
+  },
+  {
+    "id": "score-ros-01",
+    "skill": "reval-score",
+    "domain": "ros",
+    "split": "development",
+    "prompt": "Assess this goal-arrival evaluator.",
+    "artifacts": [
+      "evals/fixtures/score-ros-01/evidence.json"
+    ]
+  },
+  {
+    "id": "score-ros-02",
+    "skill": "reval-score",
+    "domain": "ros",
+    "split": "development",
+    "prompt": "Review this validation split and accuracy claim.",
+    "artifacts": [
+      "evals/fixtures/score-ros-02/evidence.json"
+    ]
+  },
+  {
+    "id": "cases-learning-01",
+    "skill": "reval-cases",
+    "domain": "learning",
+    "split": "development",
+    "prompt": "Design useful follow-up tests for this observed failure.",
+    "artifacts": [
+      "evals/fixtures/cases-learning-01/evidence.json"
+    ]
+  },
+  {
+    "id": "cases-learning-02",
+    "skill": "reval-cases",
+    "domain": "learning",
+    "split": "development",
+    "prompt": "Plan a regression suite and explain what its aggregate success rate would mean.",
+    "artifacts": [
+      "evals/fixtures/cases-learning-02/evidence.json"
+    ]
+  },
+  {
+    "id": "cases-ros-01",
+    "skill": "reval-cases",
+    "domain": "ros",
+    "split": "development",
+    "prompt": "Propose doorway regression cases from this configuration.",
+    "artifacts": [
+      "evals/fixtures/cases-ros-01/evidence.json"
+    ]
+  },
+  {
+    "id": "cases-ros-02",
+    "skill": "reval-cases",
+    "domain": "ros",
+    "split": "development",
+    "prompt": "Improve this experiment so it can diagnose navigation failures.",
+    "artifacts": [
+      "evals/fixtures/cases-ros-02/evidence.json"
+    ]
+  },
+  {
+    "id": "compare-learning-01",
+    "skill": "reval-compare",
+    "domain": "learning",
+    "split": "development",
+    "prompt": "Compare these policies and state the supported conclusion.",
+    "artifacts": [
+      "evals/fixtures/compare-learning-01/evidence.json"
+    ]
+  },
+  {
+    "id": "compare-learning-02",
+    "skill": "reval-compare",
+    "domain": "learning",
+    "split": "development",
+    "prompt": "Which version is better based on these completion times?",
+    "artifacts": [
+      "evals/fixtures/compare-learning-02/evidence.json"
+    ]
+  },
+  {
+    "id": "compare-ros-01",
+    "skill": "reval-compare",
+    "domain": "ros",
+    "split": "development",
+    "prompt": "Can these samples support a precise performance improvement claim?",
+    "artifacts": [
+      "evals/fixtures/compare-ros-01/evidence.json"
+    ]
+  },
+  {
+    "id": "compare-ros-02",
+    "skill": "reval-compare",
+    "domain": "ros",
+    "split": "development",
+    "prompt": "Interpret this navigation comparison.",
+    "artifacts": [
+      "evals/fixtures/compare-ros-02/evidence.json"
+    ]
+  },
+  {
+    "id": "route-audit",
+    "skill": "reval",
+    "domain": "routing",
+    "split": "development",
+    "prompt": "Can you check whether the evaluation claims in this report are supported?",
+    "artifacts": [
+      "evals/fixtures/route-audit/evidence.json"
+    ]
+  },
+  {
+    "id": "route-score",
+    "skill": "reval",
+    "domain": "routing",
+    "split": "development",
+    "prompt": "We haven't defined what successful shelf placement means. Help us start.",
+    "artifacts": [
+      "evals/fixtures/route-score/evidence.json"
+    ]
+  },
+  {
+    "id": "route-unrelated",
+    "skill": "reval",
+    "domain": "routing",
+    "split": "development",
+    "prompt": "Write a unit test for a shopping-cart discount function.",
+    "artifacts": [
+      "evals/fixtures/route-unrelated/evidence.json"
+    ]
+  },
+  {
+    "id": "route-missing",
+    "skill": "reval",
+    "domain": "routing",
+    "split": "development",
+    "prompt": "Is my robot policy ready for deployment?",
+    "artifacts": [
+      "evals/fixtures/route-missing/evidence.json"
+    ]
+  }
+]

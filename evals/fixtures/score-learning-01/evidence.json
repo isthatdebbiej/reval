@@ -1,0 +1,29 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "learning",
+  "task": "Place object on shelf, release, and remain supported for two seconds.",
+  "evaluator": "success when object center enters target volume",
+  "episodes": [
+    {
+      "id": "s1",
+      "entered": true,
+      "released": false,
+      "stable_s": 0,
+      "label": "success"
+    },
+    {
+      "id": "s2",
+      "entered": true,
+      "released": true,
+      "stable_s": 0.2,
+      "label": "success"
+    },
+    {
+      "id": "s3",
+      "entered": true,
+      "released": true,
+      "stable_s": 2.5,
+      "label": "success"
+    }
+  ]
+}

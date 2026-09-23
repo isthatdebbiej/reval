@@ -1,0 +1,58 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "learning",
+  "setting": "simulation",
+  "same_evaluator": true,
+  "paired_trials": [
+    {
+      "id": 1,
+      "A": true,
+      "B": true
+    },
+    {
+      "id": 2,
+      "A": true,
+      "B": true
+    },
+    {
+      "id": 3,
+      "A": true,
+      "B": true
+    },
+    {
+      "id": 4,
+      "A": true,
+      "B": true
+    },
+    {
+      "id": 5,
+      "A": true,
+      "B": true
+    },
+    {
+      "id": 6,
+      "A": true,
+      "B": true
+    },
+    {
+      "id": 7,
+      "A": true,
+      "B": false
+    },
+    {
+      "id": 8,
+      "A": false,
+      "B": true
+    },
+    {
+      "id": 9,
+      "A": false,
+      "B": true
+    },
+    {
+      "id": 10,
+      "A": false,
+      "B": false
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+
+|
+•   codex  Agent detected — installing non-interactively
+[?25l|
+o  Source: C:\Users\USER\AppData\Local\Temp\reval-build-01a0ccb4
+[?25h[?25l|
+o  Local path validated
+[?25h[?25l|
+o  Found 6 skills
+[?25h|
+•  Installing all 6 skills
+
+|
+o  Installation Summary -------------------------------------------------------+
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval      |
+|    copy → Codex                                                              |
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval-aud  |
+|  it                                                                          |
+|    copy → Codex                                                              |
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval-cas  |
+|  es                                                                          |
+|    copy → Codex                                                              |
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval-com  |
+|  pare                                                                        |
+|    copy → Codex                                                              |
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval-fai  |
+|  lures                                                                       |
+|    copy → Codex                                                              |
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval-sco  |
+|  re                                                                          |
+|    copy → Codex                                                              |
+|                                                                              |
++------------------------------------------------------------------------------+
+[?25l|
+o  Installation complete
+[?25h
+|
+o  Installed 6 skills ---------------------------------------------------------+
+|                                                                              |
+|  ✓ reval (copied)                                                            |
+|    → ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval  |
+|  ✓ reval-audit (copied)                                                      |
+|    → ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval  |
+|  -audit                                                                      |
+|  ✓ reval-cases (copied)                                                      |
+|    → ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval  |
+|  -cases                                                                      |
+|  ✓ reval-compare (copied)                                                    |
+|    → ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval  |
+|  -compare                                                                    |
+|  ✓ reval-failures (copied)                                                   |
+|    → ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval  |
+|  -failures                                                                   |
+|  ✓ reval-score (copied)                                                      |
+|    → ~\AppData\Local\Temp\reval-install-01a0ccb4\codex\.agents\skills\reval  |
+|  -score                                                                      |
+|                                                                              |
++------------------------------------------------------------------------------+
+
+|
+—  Done!  Review skills before use; they run with full agent permissions.
+

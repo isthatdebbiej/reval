@@ -1,0 +1,14 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "ros",
+  "robot_width_m": 0.62,
+  "required_clearance_each_side_m": 0.08,
+  "doorway_candidates_m": [
+    0.5,
+    0.7,
+    0.8,
+    0.9
+  ],
+  "failure": "Oscillation at doorway",
+  "runner": "Scenario config unavailable."
+}

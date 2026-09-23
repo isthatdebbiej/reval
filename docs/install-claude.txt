@@ -1,0 +1,69 @@
+
+|
+•   codex  Agent detected — installing non-interactively
+[?25l|
+o  Source: C:\Users\USER\AppData\Local\Temp\reval-build-01a0ccb4
+[?25h[?25l|
+o  Local path validated
+[?25h[?25l|
+o  Found 6 skills
+[?25h|
+•  Installing all 6 skills
+
+|
+o  Installation Summary -------------------------------------------------------+
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.agents\skills\reval     |
+|    copy → Claude Code                                                        |
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.agents\skills\reval-au  |
+|  dit                                                                         |
+|    copy → Claude Code                                                        |
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.agents\skills\reval-ca  |
+|  ses                                                                         |
+|    copy → Claude Code                                                        |
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.agents\skills\reval-co  |
+|  mpare                                                                       |
+|    copy → Claude Code                                                        |
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.agents\skills\reval-fa  |
+|  ilures                                                                      |
+|    copy → Claude Code                                                        |
+|                                                                              |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.agents\skills\reval-sc  |
+|  ore                                                                         |
+|    copy → Claude Code                                                        |
+|                                                                              |
++------------------------------------------------------------------------------+
+[?25l|
+o  Installation complete
+[?25h
+|
+o  Installed 6 skills ---------------------------------------------------------+
+|                                                                              |
+|  ✓ reval (copied)                                                            |
+|    →                                                                         |
+|  ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.claude\skills\reval     |
+|  ✓ reval-audit (copied)                                                      |
+|    → ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.claude\skills\reva  |
+|  l-audit                                                                     |
+|  ✓ reval-cases (copied)                                                      |
+|    → ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.claude\skills\reva  |
+|  l-cases                                                                     |
+|  ✓ reval-compare (copied)                                                    |
+|    → ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.claude\skills\reva  |
+|  l-compare                                                                   |
+|  ✓ reval-failures (copied)                                                   |
+|    → ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.claude\skills\reva  |
+|  l-failures                                                                  |
+|  ✓ reval-score (copied)                                                      |
+|    → ~\AppData\Local\Temp\reval-install-01a0ccb4\claude\.claude\skills\reva  |
+|  l-score                                                                     |
+|                                                                              |
++------------------------------------------------------------------------------+
+
+|
+—  Done!  Review skills before use; they run with full agent permissions.
+

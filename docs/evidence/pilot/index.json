@@ -1,0 +1,276 @@
+{
+  "provenance": "Actual local Codex runs on synthetic development fixtures.",
+  "redactions": "Local username replaced with USER; thread identifiers removed. Review all artifacts before publication.",
+  "model": "CLI default; exact backend model version was not emitted by JSON records and is not pinned.",
+  "cli": "codex-cli 0.155.0-alpha.9.2",
+  "node": "v24.19.0",
+  "platform": "win32",
+  "independent_review": false,
+  "rows": [
+    {
+      "run": "learning-skilled",
+      "case": "audit-learning-01",
+      "condition": "skilled",
+      "input_mode": "workspace",
+      "source_digest": "3ef38d672b14a47a79cdd648bc6038ee6214b4af44b78a1b01275d655504680e",
+      "elapsed_ms": 32194,
+      "usage": {
+        "input_tokens": 130634,
+        "cached_input_tokens": 115968,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 436,
+        "reasoning_output_tokens": 29
+      },
+      "transport_status": "completed",
+      "task_status": "blocked-by-local-tool-policy",
+      "files": [
+        {
+          "file": "manifest.json",
+          "original_sha256": "5a451db552ec929fe6e74e4b1779ead5cae1d8d8b29b8a36fb51386fc126a9fd",
+          "archived_sha256": "5a451db552ec929fe6e74e4b1779ead5cae1d8d8b29b8a36fb51386fc126a9fd"
+        },
+        {
+          "file": "execution.json",
+          "original_sha256": "2dfb48947f828321f43de32c10a43048a293764627808647e908f09955e458f2",
+          "archived_sha256": "63bcbc7649b3dec4825267cc977c8677ae1885abf8b752d42de8bff4078d4313"
+        },
+        {
+          "file": "prompt.txt",
+          "original_sha256": "c308ba45370fafb823221fd82abfcb14afca4ab4a2230334825e5a5258343229",
+          "archived_sha256": "c308ba45370fafb823221fd82abfcb14afca4ab4a2230334825e5a5258343229"
+        },
+        {
+          "file": "stdout.jsonl",
+          "original_sha256": "b41adc201ddd123356a003273a867eed139b113bf591707b8572775fd3cf328b",
+          "archived_sha256": "b95ad743f2baa7d3d3fe3aada93600c2e880cc932ad2fb3c32d8019bed18fddb"
+        },
+        {
+          "file": "stderr.txt",
+          "original_sha256": "1df162e17708bee5fd5cc376d26c8c753c76b756dfe095c05176550399ec6f24",
+          "archived_sha256": "dbd8d3337c277b911ff424414ed4acc1cf8b14546cf32c7c939447d21df6feee"
+        },
+        {
+          "file": "answer.md",
+          "original_sha256": "b5de1ea60cef57e7a795e2713068be98f592b8de6d8ce0e52b921beea2d9cc2d",
+          "archived_sha256": "b5de1ea60cef57e7a795e2713068be98f592b8de6d8ce0e52b921beea2d9cc2d"
+        }
+      ]
+    },
+    {
+      "run": "inline-learning-baseline",
+      "case": "audit-learning-01",
+      "condition": "baseline",
+      "input_mode": "inline",
+      "source_digest": "cea36eecd8d2801e729be8133450741088a952943e61526b6b4640bc9c9b9c65",
+      "elapsed_ms": 13113,
+      "usage": {
+        "input_tokens": 15021,
+        "cached_input_tokens": 12416,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 282,
+        "reasoning_output_tokens": 0
+      },
+      "transport_status": "completed",
+      "task_status": "answered",
+      "files": [
+        {
+          "file": "manifest.json",
+          "original_sha256": "0c7a027c6b4ec6694d39f6980f62758c0d11e08881988b2770811f1253d98ad0",
+          "archived_sha256": "0c7a027c6b4ec6694d39f6980f62758c0d11e08881988b2770811f1253d98ad0"
+        },
+        {
+          "file": "execution.json",
+          "original_sha256": "68dd1b7eba8b7a8722d25b77bec9747b8a2aeccf96a79b6ffeb7c22d87bceba1",
+          "archived_sha256": "57f1e61b96642a10820e47715ad731801fe8947978df05166f2d7943a5f2c71b"
+        },
+        {
+          "file": "prompt.txt",
+          "original_sha256": "c308ba45370fafb823221fd82abfcb14afca4ab4a2230334825e5a5258343229",
+          "archived_sha256": "c308ba45370fafb823221fd82abfcb14afca4ab4a2230334825e5a5258343229"
+        },
+        {
+          "file": "effective-prompt.txt",
+          "original_sha256": "f77fde46a4c208dcfdcf799903f0fb849f34a00be463e1d3a2a1bab154422660",
+          "archived_sha256": "f77fde46a4c208dcfdcf799903f0fb849f34a00be463e1d3a2a1bab154422660"
+        },
+        {
+          "file": "stdout.jsonl",
+          "original_sha256": "adcd8e7c054a6f87b7356ca02c2f3f9b3396a266423834c92ff103c991414b9d",
+          "archived_sha256": "19e0b98de0912ed1c63a1f39cb4548b60ac97bfd65041956e93b70c662eb408e"
+        },
+        {
+          "file": "stderr.txt",
+          "original_sha256": "58075a3a35d5881b531faade699e0f49acb8043c94308ea607dc628377296f02",
+          "archived_sha256": "58075a3a35d5881b531faade699e0f49acb8043c94308ea607dc628377296f02"
+        },
+        {
+          "file": "answer.md",
+          "original_sha256": "08cfa1d3744c5df69c9d5e0be8ca9f4169e2d977073e4b5c17e7f02c5081884e",
+          "archived_sha256": "08cfa1d3744c5df69c9d5e0be8ca9f4169e2d977073e4b5c17e7f02c5081884e"
+        }
+      ]
+    },
+    {
+      "run": "inline-learning-skilled",
+      "case": "audit-learning-01",
+      "condition": "skilled",
+      "input_mode": "inline",
+      "source_digest": "cea36eecd8d2801e729be8133450741088a952943e61526b6b4640bc9c9b9c65",
+      "elapsed_ms": 21136,
+      "usage": {
+        "input_tokens": 20531,
+        "cached_input_tokens": 12416,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 464,
+        "reasoning_output_tokens": 0
+      },
+      "transport_status": "completed",
+      "task_status": "answered",
+      "files": [
+        {
+          "file": "manifest.json",
+          "original_sha256": "286bdf1db5b467c9a25f8027db92e6cbbea416591c3b84a86852850768dd6339",
+          "archived_sha256": "286bdf1db5b467c9a25f8027db92e6cbbea416591c3b84a86852850768dd6339"
+        },
+        {
+          "file": "execution.json",
+          "original_sha256": "8859919ec9be33b3a248ec920ef5959575c2c289b68476f0ddea8893dd734fef",
+          "archived_sha256": "b7b23e3f2c39f62e136ad0cb9d97252fa1d57723c32798dccf07af9ccac78b8a"
+        },
+        {
+          "file": "prompt.txt",
+          "original_sha256": "c308ba45370fafb823221fd82abfcb14afca4ab4a2230334825e5a5258343229",
+          "archived_sha256": "c308ba45370fafb823221fd82abfcb14afca4ab4a2230334825e5a5258343229"
+        },
+        {
+          "file": "effective-prompt.txt",
+          "original_sha256": "baec6028027c07e82e2e2f1bd90a4be636a12428caaa0b90d6ed026497d52650",
+          "archived_sha256": "baec6028027c07e82e2e2f1bd90a4be636a12428caaa0b90d6ed026497d52650"
+        },
+        {
+          "file": "stdout.jsonl",
+          "original_sha256": "9450606e38304dee3f882dd59f5c135efd403f5b3e910ff2637d5be4a779fa27",
+          "archived_sha256": "8f205c8427ece8184f9fb1c9a868be8b9a51ae3827f62d314c780be89a61dff7"
+        },
+        {
+          "file": "stderr.txt",
+          "original_sha256": "627b3020d28647772e7b2343ece41f4ef905ab21a71487df3f121ebf13abf5fd",
+          "archived_sha256": "627b3020d28647772e7b2343ece41f4ef905ab21a71487df3f121ebf13abf5fd"
+        },
+        {
+          "file": "answer.md",
+          "original_sha256": "93b3d5eb8c9b1bbfb034cd955cdeece71c45a532d96cc48bee7ef32d83b0b157",
+          "archived_sha256": "93b3d5eb8c9b1bbfb034cd955cdeece71c45a532d96cc48bee7ef32d83b0b157"
+        }
+      ]
+    },
+    {
+      "run": "inline-ros-baseline",
+      "case": "audit-ros-01",
+      "condition": "baseline",
+      "input_mode": "inline",
+      "source_digest": "8ea57ffd9711c9015dbee2d9f42f740c94ed9bb848b6aed5de6f9a214e603f9c",
+      "elapsed_ms": 15948,
+      "usage": {
+        "input_tokens": 14740,
+        "cached_input_tokens": 12416,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 370,
+        "reasoning_output_tokens": 0
+      },
+      "transport_status": "completed",
+      "task_status": "answered",
+      "files": [
+        {
+          "file": "manifest.json",
+          "original_sha256": "eeb69237a38609d5c200b49fdd7c08866b9363b0de58b9974797b8775326ccfa",
+          "archived_sha256": "eeb69237a38609d5c200b49fdd7c08866b9363b0de58b9974797b8775326ccfa"
+        },
+        {
+          "file": "execution.json",
+          "original_sha256": "bc4ab7c75833704caf7f41436f8fc27516f8c997956743f5bf480042c55c4620",
+          "archived_sha256": "244b9123175d31aefbb6b605682eaacfa70d05634952ed209442b1ac7c58f15e"
+        },
+        {
+          "file": "prompt.txt",
+          "original_sha256": "5a5ccad411e69fe7a0922ece933a7e43683a3bb6a8f458bec435f9f8afbd10bd",
+          "archived_sha256": "5a5ccad411e69fe7a0922ece933a7e43683a3bb6a8f458bec435f9f8afbd10bd"
+        },
+        {
+          "file": "effective-prompt.txt",
+          "original_sha256": "568a3677dbf9e11b70a921cf4d88f87f7fb24bb3c9d84b9595d45afbf1dfd4a4",
+          "archived_sha256": "568a3677dbf9e11b70a921cf4d88f87f7fb24bb3c9d84b9595d45afbf1dfd4a4"
+        },
+        {
+          "file": "stdout.jsonl",
+          "original_sha256": "e8cc486534b1e31225430fb3f7c349d1111546bd8cc33ce9b99afbf54f63d791",
+          "archived_sha256": "6ad961916258cb3bddbed2656cb743885431cdd6b77d81351d2945174c502454"
+        },
+        {
+          "file": "stderr.txt",
+          "original_sha256": "f9f4ae30b95bb406be27ba9866d8478f5833f35f0472e83e63feaac8233f5fd1",
+          "archived_sha256": "f9f4ae30b95bb406be27ba9866d8478f5833f35f0472e83e63feaac8233f5fd1"
+        },
+        {
+          "file": "answer.md",
+          "original_sha256": "967ce8032e99811ee5855170f0bbfccc850080d2c26f05f577b882c098b75d8f",
+          "archived_sha256": "967ce8032e99811ee5855170f0bbfccc850080d2c26f05f577b882c098b75d8f"
+        }
+      ]
+    },
+    {
+      "run": "inline-ros-skilled",
+      "case": "audit-ros-01",
+      "condition": "skilled",
+      "input_mode": "inline",
+      "source_digest": "8ea57ffd9711c9015dbee2d9f42f740c94ed9bb848b6aed5de6f9a214e603f9c",
+      "elapsed_ms": 23006,
+      "usage": {
+        "input_tokens": 20251,
+        "cached_input_tokens": 12416,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 509,
+        "reasoning_output_tokens": 0
+      },
+      "transport_status": "completed",
+      "task_status": "answered",
+      "files": [
+        {
+          "file": "manifest.json",
+          "original_sha256": "8b21887d01f8ae12d8e6f76e556246ba7c7d914d5e98432d7669d8e4acd63647",
+          "archived_sha256": "8b21887d01f8ae12d8e6f76e556246ba7c7d914d5e98432d7669d8e4acd63647"
+        },
+        {
+          "file": "execution.json",
+          "original_sha256": "e70e61a5416a579a51dd4bd1ade8948eba3a0d30470cbc8390f40d1cfe83999f",
+          "archived_sha256": "42848a807c2e7dc31594cb6b0ac148c1f7e6a81d41d28544f241b3c08f4ca877"
+        },
+        {
+          "file": "prompt.txt",
+          "original_sha256": "5a5ccad411e69fe7a0922ece933a7e43683a3bb6a8f458bec435f9f8afbd10bd",
+          "archived_sha256": "5a5ccad411e69fe7a0922ece933a7e43683a3bb6a8f458bec435f9f8afbd10bd"
+        },
+        {
+          "file": "effective-prompt.txt",
+          "original_sha256": "6e4d3492bdcabcb69e0c6d19826fa917a2963ea978c75693d81a1fd53c53274d",
+          "archived_sha256": "6e4d3492bdcabcb69e0c6d19826fa917a2963ea978c75693d81a1fd53c53274d"
+        },
+        {
+          "file": "stdout.jsonl",
+          "original_sha256": "a2e22fdf8e0653f6d268cd0b5ce0cebdf3e005bf9264d03b8775d4afa08fddf1",
+          "archived_sha256": "ffeff4cb9c824a3950e9dad1666b6a533fcfb4bc1610e0d61c2e9b1f3c898117"
+        },
+        {
+          "file": "stderr.txt",
+          "original_sha256": "f621b6c6c772efec65623a76898530475fb5c4fbab9f83149b6881d9c65bd774",
+          "archived_sha256": "f621b6c6c772efec65623a76898530475fb5c4fbab9f83149b6881d9c65bd774"
+        },
+        {
+          "file": "answer.md",
+          "original_sha256": "6a4c8b1aa21c52c46df2571e12800d1ead01ef1a57de58d21876ea71e1b6bf54",
+          "archived_sha256": "6a4c8b1aa21c52c46df2571e12800d1ead01ef1a57de58d21876ea71e1b6bf54"
+        }
+      ]
+    }
+  ]
+}

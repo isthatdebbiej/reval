@@ -1,0 +1,29 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "learning",
+  "episode": "slip-01",
+  "modality": "timestamped event log only; video unavailable",
+  "events": [
+    {
+      "t": 0,
+      "event": "object acquired"
+    },
+    {
+      "t": 1,
+      "event": "transport begins"
+    },
+    {
+      "t": 1.4,
+      "event": "object separates from gripper"
+    },
+    {
+      "t": 1.6,
+      "event": "object contacts table"
+    }
+  ],
+  "missing": [
+    "grip force",
+    "surface friction",
+    "command acceleration"
+  ]
+}

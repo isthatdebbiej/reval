@@ -1,0 +1,18 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "learning",
+  "claim": "90% on unseen objects",
+  "training_objects": [
+    "mug-red",
+    "mug-blue",
+    "bowl-a"
+  ],
+  "evaluation_objects": [
+    "mug-red",
+    "mug-blue",
+    "bowl-a"
+  ],
+  "selection": "Checkpoint chosen after comparing all candidates on these same evaluation episodes.",
+  "episodes": 10,
+  "successes": 9
+}

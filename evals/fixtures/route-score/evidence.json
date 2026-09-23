@@ -1,0 +1,6 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "routing",
+  "task": "Shelf placement",
+  "available": "Task description only; no logs or evaluator"
+}

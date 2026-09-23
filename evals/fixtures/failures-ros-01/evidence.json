@@ -1,0 +1,20 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "ros",
+  "episode": "nav-oscillation",
+  "events": [
+    {
+      "t": 4,
+      "event": "localization covariance rises"
+    },
+    {
+      "t": 5,
+      "event": "steering alternates left/right"
+    },
+    {
+      "t": 8,
+      "event": "operator takes control"
+    }
+  ],
+  "sensors": "No raw scan, ground-truth pose or controller command log available."
+}

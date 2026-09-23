@@ -1,0 +1,28 @@
+name: Evaluation failure case
+description: Share a minimal case where an agent reaches an incorrect evaluation conclusion.
+body:
+  - type: textarea
+    id: decision
+    attributes:
+      label: Evaluation decision and domain
+      description: Manipulation, ROS/navigation, or another robotics task?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Minimal anonymized evidence
+      description: Include provenance and permission to share. Label synthetic data.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Actual and expected interpretation
+      description: Cite evidence and distinguish observations from hypotheses.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Agent, model, skill version, and reproduction prompt

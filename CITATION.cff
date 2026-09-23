@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "Please cite this software when using Reval. No paper or DOI is claimed."
+title: "Reval: Robotics Evaluation Skills"
+type: software
+authors:
+  - name: "Reval contributors"
+version: 0.1.0
+license: Apache-2.0
+abstract: "Portable agent skills for reviewing robot failures, building trustworthy evaluations, and comparing robot performance."
+keywords:
+  - robotics
+  - evaluation
+  - agent-skills
+  - ROS
+
+repository-code: https://github.com/isthatdebbiej/reval
+url: https://github.com/isthatdebbiej/reval

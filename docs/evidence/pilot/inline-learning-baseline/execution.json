@@ -1,0 +1,42 @@
+{
+  "case": "audit-learning-01",
+  "agent": "codex",
+  "condition": "baseline",
+  "prepared_at": "2026-09-23T06:25:34.220Z",
+  "source_digest": "cea36eecd8d2801e729be8133450741088a952943e61526b6b4640bc9c9b9c65",
+  "fixture_hashes": {
+    "evals/fixtures/audit-learning-01/evidence.json": "e17bff6fab63eec4e4b2c07f685933ca89bfdae4eaee485c5a4de359ff7dd9e8"
+  },
+  "isolation": "Minimal workspace, not an OS sandbox. Run in a container for independent blinded evaluation.",
+  "started_at": "2026-09-23T06:25:34.304Z",
+  "elapsed_ms": 13113,
+  "command": "codex",
+  "args": [
+    "exec",
+    "--ignore-user-config",
+    "--ephemeral",
+    "--sandbox",
+    "read-only",
+    "--skip-git-repo-check",
+    "--json",
+    "--output-last-message",
+    "C:\\Users\\USER\\AppData\\Local\\Temp\\reval-pilot-01a0ccb4\\inline-learning-baseline\\answer.md",
+    "-"
+  ],
+  "model": "agent-default-record-separately",
+  "exit_code": 0,
+  "signal": null,
+  "timed_out": false,
+  "launch_error": null,
+  "usage": {
+    "input_tokens": 15021,
+    "cached_input_tokens": 12416,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 282,
+    "reasoning_output_tokens": 0
+  },
+  "monetary_cap": "not enforced; timeout and one-run limit only",
+  "input_mode": "inline",
+  "prompt_sha256": "f77fde46a4c208dcfdcf799903f0fb849f34a00be463e1d3a2a1bab154422660",
+  "status": "completed"
+}

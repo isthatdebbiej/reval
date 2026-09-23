@@ -1,0 +1,7 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "learning",
+  "source": "20 failures deliberately selected from 5000 episodes",
+  "proposal": "Generate 100 variants per failure and report the mean as deployment success.",
+  "development": "All generated cases will be shown to the policy developer."
+}

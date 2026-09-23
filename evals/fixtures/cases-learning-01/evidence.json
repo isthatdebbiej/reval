@@ -1,0 +1,26 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "learning",
+  "failure": "Object slips during fast transport",
+  "evidence": "episode t7 at 1.3s",
+  "capability": {
+    "max_payload_kg": 0.5,
+    "documented_acceleration_m_s2": [
+      0.2,
+      1
+    ]
+  },
+  "proposed_grid": {
+    "payload_kg": [
+      0.1,
+      0.3,
+      1.2
+    ],
+    "acceleration_m_s2": [
+      0.2,
+      0.6,
+      3
+    ]
+  },
+  "runner": "not supplied"
+}

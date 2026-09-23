@@ -1,0 +1,24 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "ros",
+  "task": "Physical base must remain within 0.25m of goal for 3 seconds without assistance.",
+  "episodes": [
+    {
+      "id": "g1",
+      "action_status": "SUCCEEDED",
+      "estimated_error_m": 0.1,
+      "reference_error_m": 0.8,
+      "dwell_s": 4,
+      "assisted": false
+    },
+    {
+      "id": "g2",
+      "action_status": "SUCCEEDED",
+      "estimated_error_m": 0.1,
+      "reference_error_m": 0.1,
+      "dwell_s": 0.4,
+      "assisted": false
+    }
+  ],
+  "reference": "Independent calibrated tracking system"
+}

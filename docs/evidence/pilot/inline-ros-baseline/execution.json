@@ -1,0 +1,42 @@
+{
+  "case": "audit-ros-01",
+  "agent": "codex",
+  "condition": "baseline",
+  "prepared_at": "2026-09-23T06:27:08.704Z",
+  "source_digest": "8ea57ffd9711c9015dbee2d9f42f740c94ed9bb848b6aed5de6f9a214e603f9c",
+  "fixture_hashes": {
+    "evals/fixtures/audit-ros-01/evidence.json": "a5259688518382cfb6d756765b116448fd7a73faab6db445a1e511ce4cadbd79"
+  },
+  "isolation": "Minimal workspace, not an OS sandbox. Run in a container for independent blinded evaluation.",
+  "started_at": "2026-09-23T06:27:08.908Z",
+  "elapsed_ms": 15948,
+  "command": "codex",
+  "args": [
+    "exec",
+    "--ignore-user-config",
+    "--ephemeral",
+    "--sandbox",
+    "read-only",
+    "--skip-git-repo-check",
+    "--json",
+    "--output-last-message",
+    "C:\\Users\\USER\\AppData\\Local\\Temp\\reval-pilot-01a0ccb4\\inline-ros-baseline\\answer.md",
+    "-"
+  ],
+  "model": "agent-default-record-separately",
+  "exit_code": 0,
+  "signal": null,
+  "timed_out": false,
+  "launch_error": null,
+  "usage": {
+    "input_tokens": 14740,
+    "cached_input_tokens": 12416,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 370,
+    "reasoning_output_tokens": 0
+  },
+  "monetary_cap": "not enforced; timeout and one-run limit only",
+  "input_mode": "inline",
+  "prompt_sha256": "568a3677dbf9e11b70a921cf4d88f87f7fb24bb3c9d84b9595d45afbf1dfd4a4",
+  "status": "completed"
+}

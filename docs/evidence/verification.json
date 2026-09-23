@@ -1,0 +1,44 @@
+{
+  "checked_at": "2026-09-23",
+  "status": "local-development-preview",
+  "structural": {
+    "skills": 6,
+    "cases": 24,
+    "passed": true
+  },
+  "standard_skill_validator": {
+    "passed": 6,
+    "total": 6,
+    "validator": "skill-creator/scripts/quick_validate.py",
+    "validation_only_dependency": "PyYAML 6.0.3 in temporary directory"
+  },
+  "helper_tests": {
+    "passed": 9,
+    "total": 9
+  },
+  "installation": {
+    "installer": "skills@1.7.0",
+    "codex": {
+      "skills": 6,
+      "files_hash_matched": 11
+    },
+    "claude_code": {
+      "skills": 6,
+      "files_hash_matched": 11
+    },
+    "single_specialist": {
+      "name": "reval-audit",
+      "references_present": true
+    }
+  },
+  "live": {
+    "codex_inline_completed": 4,
+    "cases": 2,
+    "repetitions_per_condition": 1,
+    "workspace_task_blocked": 1,
+    "claude_completed": 0,
+    "full_study_completed": false,
+    "independent_human_review": false
+  },
+  "claims": "Installation and diagnostic evidence only; no effectiveness advantage or physical-robot claim."
+}

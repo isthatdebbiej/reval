@@ -1,0 +1,19 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "learning",
+  "sampling": "Ten episodes deliberately selected from failures in a 1000-episode archive; population outcomes not supplied.",
+  "annotations": [
+    {
+      "category": "lost retention",
+      "count": 6
+    },
+    {
+      "category": "wrong object",
+      "count": 3
+    },
+    {
+      "category": "unknown due to occlusion",
+      "count": 1
+    }
+  ]
+}

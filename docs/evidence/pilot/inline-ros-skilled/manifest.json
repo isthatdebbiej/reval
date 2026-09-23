@@ -1,0 +1,11 @@
+{
+  "case": "audit-ros-01",
+  "agent": "codex",
+  "condition": "skilled",
+  "prepared_at": "2026-09-23T06:27:08.818Z",
+  "source_digest": "8ea57ffd9711c9015dbee2d9f42f740c94ed9bb848b6aed5de6f9a214e603f9c",
+  "fixture_hashes": {
+    "evals/fixtures/audit-ros-01/evidence.json": "a5259688518382cfb6d756765b116448fd7a73faab6db445a1e511ce4cadbd79"
+  },
+  "isolation": "Minimal workspace, not an OS sandbox. Run in a container for independent blinded evaluation."
+}

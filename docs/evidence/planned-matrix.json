@@ -1,0 +1,1735 @@
+{
+  "status": "planned-not-executed",
+  "runs": 288,
+  "source": "81cced8f6028fab66630eb608e0f44493d196fc4fb68d137bd46efa0feab8eef",
+  "rows": [
+    {
+      "case": "audit-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "audit-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "audit-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "audit-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "audit-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "audit-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "audit-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "audit-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "audit-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "audit-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "audit-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "audit-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "audit-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "audit-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "audit-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "failures-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "failures-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "failures-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "failures-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "score-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "score-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "score-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "score-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "cases-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "cases-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "cases-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "cases-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "compare-learning-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "compare-learning-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "compare-ros-01",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "compare-ros-02",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "route-audit",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "route-audit",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "route-audit",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "route-audit",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "route-audit",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "route-audit",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "route-audit",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "route-audit",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "route-audit",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "route-audit",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "route-audit",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "route-audit",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "route-score",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "route-score",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "route-score",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "route-score",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "route-score",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "route-score",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "route-score",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "route-score",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "route-score",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "route-score",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "route-score",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "route-score",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "route-unrelated",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "route-missing",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "route-missing",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "route-missing",
+      "agent": "codex",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "route-missing",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "route-missing",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "route-missing",
+      "agent": "codex",
+      "condition": "skilled",
+      "repeat": 3
+    },
+    {
+      "case": "route-missing",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 1
+    },
+    {
+      "case": "route-missing",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 2
+    },
+    {
+      "case": "route-missing",
+      "agent": "claude-code",
+      "condition": "baseline",
+      "repeat": 3
+    },
+    {
+      "case": "route-missing",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 1
+    },
+    {
+      "case": "route-missing",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 2
+    },
+    {
+      "case": "route-missing",
+      "agent": "claude-code",
+      "condition": "skilled",
+      "repeat": 3
+    }
+  ]
+}

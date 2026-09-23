@@ -1,0 +1,23 @@
+name: Pilot feedback
+description: Tell us whether Reval helped with an actual evaluation decision.
+body:
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow and installation experience
+      description: Do not include private logs or credentials.
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: What changed in your evaluation decision?
+      description: Include mistakes, correction effort, and unresolved problems.
+    validations:
+      required: true
+  - type: dropdown
+    id: return
+    attributes:
+      label: Would you use the skills again?
+      options: ["Yes", "Unsure", "No"]
+

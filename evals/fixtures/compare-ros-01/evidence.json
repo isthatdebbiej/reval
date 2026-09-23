@@ -1,0 +1,17 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "ros",
+  "A": {
+    "episodes": 2,
+    "ticks_per_episode": 10000,
+    "mean_cross_track_error_m": 0.12
+  },
+  "B": {
+    "episodes": 2,
+    "ticks_per_episode": 10000,
+    "mean_cross_track_error_m": 0.1
+  },
+  "claim": "40000 independent observations establish improvement.",
+  "routes": "same two routes",
+  "episode_level_data": "not supplied"
+}

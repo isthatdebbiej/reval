@@ -1,0 +1,12 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "ros",
+  "metric": "B minus A autonomous completion rate",
+  "difference_pp": 1,
+  "confidence_interval_95_pp": [
+    -8,
+    10
+  ],
+  "equivalence_margin": "not specified",
+  "claim": "No significant difference proves equivalence."
+}

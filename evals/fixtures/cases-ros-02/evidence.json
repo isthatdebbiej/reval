@@ -1,0 +1,7 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "ros",
+  "hypothesis": "Localization noise causes oscillation",
+  "proposal": "Increase localization noise, add pedestrians, narrow the corridor, and reduce controller frequency in all new trials.",
+  "constraints": "Offline scenario design only."
+}

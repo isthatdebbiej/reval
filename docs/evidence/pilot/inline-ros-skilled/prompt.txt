@@ -1,0 +1,3 @@
+Audit this navigation evaluation summary and explain the denominators.
+
+Inspect evidence.json. Use applicable installed skills if present. Work offline and read-only. Do not run a robot, install packages, or fetch external material. State evidence locations and uncertainty. Return your findings in your final response.

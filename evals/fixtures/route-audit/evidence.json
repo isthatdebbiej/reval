@@ -1,0 +1,5 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "routing",
+  "report": "The robot reached its target in 8/10 runs; two of the eight required operator rescue."
+}

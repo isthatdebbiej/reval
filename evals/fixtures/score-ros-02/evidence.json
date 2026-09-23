@@ -1,0 +1,9 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "ros",
+  "episodes": 4,
+  "frames_per_episode": 1000,
+  "split": "randomly split frames 80/20 across training and validation",
+  "accuracy": 0.99,
+  "claim": "Independent validation on 800 examples demonstrates reliable navigation outcome scoring."
+}

@@ -1,0 +1,5 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "web-commerce",
+  "function": "priceAfterDiscount(price, percentage)"
+}

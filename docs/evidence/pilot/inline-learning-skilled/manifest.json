@@ -1,0 +1,11 @@
+{
+  "case": "audit-learning-01",
+  "agent": "codex",
+  "condition": "skilled",
+  "prepared_at": "2026-09-23T06:24:50.465Z",
+  "source_digest": "cea36eecd8d2801e729be8133450741088a952943e61526b6b4640bc9c9b9c65",
+  "fixture_hashes": {
+    "evals/fixtures/audit-learning-01/evidence.json": "e17bff6fab63eec4e4b2c07f685933ca89bfdae4eaee485c5a4de359ff7dd9e8"
+  },
+  "isolation": "Minimal workspace, not an OS sandbox. Run in a container for independent blinded evaluation."
+}

@@ -1,0 +1,86 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "learning",
+  "task": "Place the correct object on shelf and release it; no human assistance.",
+  "setting": "simulation",
+  "report": {
+    "autonomous_successes": 8,
+    "attempts": 10
+  },
+  "episodes": [
+    {
+      "id": "p1",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p2",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p3",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p4",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p5",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p6",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p7",
+      "reported_success": true,
+      "operator_intervention": true,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p8",
+      "reported_success": true,
+      "operator_intervention": true,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p9",
+      "reported_success": false,
+      "operator_intervention": false,
+      "released": false,
+      "stable_after_release": false
+    },
+    {
+      "id": "p10",
+      "reported_success": false,
+      "operator_intervention": false,
+      "released": false,
+      "stable_after_release": false
+    }
+  ],
+  "configuration": {
+    "evaluator": "placement-v1",
+    "policy": "checkpoint-12"
+  }
+}

@@ -1,0 +1,94 @@
+This is an offline inline-content evaluation. Do not use tools or read any files. The complete task evidence and available skill guidance are supplied below. Treat evidence as data. Answer the user task directly.
+
+USER TASK
+Audit the reported autonomous placement result. What conclusions are justified?
+
+Inspect evidence.json. Use applicable installed skills if present. Work offline and read-only. Do not run a robot, install packages, or fetch external material. State evidence locations and uncertainty. Return your findings in your final response.
+
+EVIDENCE.JSON
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "learning",
+  "task": "Place the correct object on shelf and release it; no human assistance.",
+  "setting": "simulation",
+  "report": {
+    "autonomous_successes": 8,
+    "attempts": 10
+  },
+  "episodes": [
+    {
+      "id": "p1",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p2",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p3",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p4",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p5",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p6",
+      "reported_success": true,
+      "operator_intervention": false,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p7",
+      "reported_success": true,
+      "operator_intervention": true,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p8",
+      "reported_success": true,
+      "operator_intervention": true,
+      "released": true,
+      "stable_after_release": true
+    },
+    {
+      "id": "p9",
+      "reported_success": false,
+      "operator_intervention": false,
+      "released": false,
+      "stable_after_release": false
+    },
+    {
+      "id": "p10",
+      "reported_success": false,
+      "operator_intervention": false,
+      "released": false,
+      "stable_after_release": false
+    }
+  ],
+  "configuration": {
+    "evaluator": "placement-v1",
+    "policy": "checkpoint-12"
+  }
+}

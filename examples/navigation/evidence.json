@@ -1,0 +1,41 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "ros",
+  "report": {
+    "success_rate": "100%",
+    "denominator": 4
+  },
+  "attempts": [
+    {
+      "id": "n1",
+      "status": "SUCCEEDED",
+      "arrival_verified": true
+    },
+    {
+      "id": "n2",
+      "status": "SUCCEEDED",
+      "arrival_verified": true
+    },
+    {
+      "id": "n3",
+      "status": "SUCCEEDED",
+      "arrival_verified": true
+    },
+    {
+      "id": "n4",
+      "status": "SUCCEEDED",
+      "arrival_verified": true
+    },
+    {
+      "id": "n5",
+      "status": "LOCALIZATION_UNAVAILABLE",
+      "arrival_verified": false
+    },
+    {
+      "id": "n6",
+      "status": "PROCESS_CRASH",
+      "arrival_verified": false
+    }
+  ],
+  "exclusion_rule": "Unavailable and crashed attempts removed after the run."
+}

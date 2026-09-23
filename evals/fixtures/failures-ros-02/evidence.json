@@ -1,0 +1,16 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "ros",
+  "video": {
+    "clock": "camera-local",
+    "event_time": 10,
+    "event": "contact visible"
+  },
+  "telemetry": {
+    "clock": "host-monotonic",
+    "event_time": 10,
+    "event": "brake command"
+  },
+  "clock_offset": "unknown",
+  "episode": "nav-clock-01"
+}

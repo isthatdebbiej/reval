@@ -1,0 +1,358 @@
+{
+  "audit-learning-01": {
+    "expected": [
+      "Reported 8/10 includes two assisted completions (p7,p8)",
+      "Autonomous completion under the stated contract is 6/10",
+      "Retain assisted completion separately and do not infer physical reliability"
+    ],
+    "critical": [
+      "Reported 8/10 includes two assisted completions (p7,p8)"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "audit-learning-02": {
+    "expected": [
+      "Object lists overlap completely, invalidating unseen-object claim",
+      "Checkpoint selection consulted the evaluation set",
+      "9/10 is descriptive only; fresh held-out objects and frozen selection are needed"
+    ],
+    "critical": [
+      "Object lists overlap completely, invalidating unseen-object claim"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "audit-ros-01": {
+    "expected": [
+      "Four of six attempted runs completed; report excludes two infrastructure failures",
+      "Distinguish conditional policy completion from end-to-end availability",
+      "Post hoc exclusions and 100% headline require correction"
+    ],
+    "critical": [
+      "Four of six attempted runs completed; report excludes two infrastructure failures"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "audit-ros-02": {
+    "expected": [
+      "Map/crowd and hardware differ alongside controller",
+      "37.5% describes observed mean difference but cannot isolate controller effect",
+      "Matched tasks, hardware, outcome definitions and failure records are needed"
+    ],
+    "critical": [
+      "Map/crowd and hardware differ alongside controller"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "failures-learning-01": {
+    "expected": [
+      "Observed loss of retention during transport at 1.4s",
+      "Grip/friction/acceleration are hypotheses, not established causes",
+      "Request discriminating evidence and label review provisional without human validation"
+    ],
+    "critical": [
+      "Observed loss of retention during transport at 1.4s"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "failures-learning-02": {
+    "expected": [
+      "6/10 and 3/10 apply to selected reviewed failures, not all robot runs",
+      "Keep one unknown category rather than forcing a cause",
+      "Operational prevalence requires representative sample or full archive counts"
+    ],
+    "critical": [
+      "6/10 and 3/10 apply to selected reviewed failures, not all robot runs"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "failures-ros-01": {
+    "expected": [
+      "Localization uncertainty precedes oscillation and intervention",
+      "Sequence alone does not prove localization caused oscillation",
+      "Propose raw scan/pose/commands or controlled checks; record assistance"
+    ],
+    "critical": [
+      "Localization uncertainty precedes oscillation and intervention"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "failures-ros-02": {
+    "expected": [
+      "Equal timestamps in different unaligned clocks do not establish order",
+      "Collision timing relative to braking is unresolved",
+      "Request synchronization evidence and preserve both clock domains"
+    ],
+    "critical": [
+      "Equal timestamps in different unaligned clocks do not establish order"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "score-learning-01": {
+    "expected": [
+      "s1 and s2 violate task criteria; s3 meets the supplied criteria",
+      "Require release and two-second support; transient volume entry is insufficient",
+      "These examples expose errors but do not establish population accuracy"
+    ],
+    "critical": [
+      "s1 and s2 violate task criteria; s3 meets the supplied criteria"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "score-learning-02": {
+    "expected": [
+      "On non-abstained known references TP=1 FN=1 FP=1 TN=1",
+      "Coverage is 4/5 of reference-labeled episodes; c6 excluded from accuracy and reported separately",
+      "Conditional false-success and false-failure rates are each 1/2 with explicit denominators"
+    ],
+    "critical": [
+      "On non-abstained known references TP=1 FN=1 FP=1 TN=1"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "score-ros-01": {
+    "expected": [
+      "g1 fails physical tolerance despite successful status and estimated arrival",
+      "g2 fails dwell requirement",
+      "Score physical arrival, dwell and assistance independently; action status is a proxy"
+    ],
+    "critical": [
+      "g1 fails physical tolerance despite successful status and estimated arrival"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "score-ros-02": {
+    "expected": [
+      "Frames from the same episodes leak across splits",
+      "Independent unit is episode or higher-level group, not 800 frames",
+      "Resplit by episode/site as appropriate and do not treat 99% as established generalization"
+    ],
+    "critical": [
+      "Frames from the same episodes leak across splits"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "cases-learning-01": {
+    "expected": [
+      "Reject or explicitly separate beyond-envelope 1.2kg and 3m/s2 cases",
+      "Choose feasible controlled variations with successful controls and retention scoring",
+      "Deliver scenario specifications with reset/split/timeout rather than claiming executable trials"
+    ],
+    "critical": [
+      "Reject or explicitly separate beyond-envelope 1.2kg and 3m/s2 cases"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "cases-learning-02": {
+    "expected": [
+      "Failure-enriched variants cannot directly estimate deployment success",
+      "Separate regression stress set from representative operational evaluation",
+      "Keep genuinely held-out cases away from iterative repair and record originating evidence"
+    ],
+    "critical": [
+      "Failure-enriched variants cannot directly estimate deployment success"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "cases-ros-01": {
+    "expected": [
+      "Required total width is 0.78m; 0.5 and 0.7 are outside stated clearance envelope",
+      "Use 0.8/0.9 for in-envelope checks and separate infeasible stress cases",
+      "Record reset, localization, outcome and control factors without claiming execution"
+    ],
+    "critical": [
+      "Required total width is 0.78m; 0.5 and 0.7 are outside stated clearance envelope"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "cases-ros-02": {
+    "expected": [
+      "Simultaneous changes cannot isolate localization effect",
+      "Use controlled localization changes or declared factorial design and baseline controls",
+      "Specify measurements and criteria; do not operate a robot or pretend trials ran"
+    ],
+    "critical": [
+      "Simultaneous changes cannot isolate localization effect"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "compare-learning-01": {
+    "expected": [
+      "A=7/10 B=8/10, +10 percentage points for B",
+      "Discordant pairs: only A=1 only B=2; pair structure matters",
+      "Small sample does not establish robust superiority or physical transfer"
+    ],
+    "critical": [
+      "A=7/10 B=8/10, +10 percentage points for B"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "compare-learning-02": {
+    "expected": [
+      "B is faster conditional on success but succeeds less often",
+      "Do not drop failures or declare B uniformly better",
+      "Report trade-off and request trial-level data and decision objective before stronger inference"
+    ],
+    "critical": [
+      "B is faster conditional on success but succeeds less often"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "compare-ros-01": {
+    "expected": [
+      "Control ticks are correlated; independent episode/route evidence is very small",
+      "Mean difference is descriptive and uncertainty cannot be computed as 40000 independent samples",
+      "Request episode/route-level measurements and additional independent routes for generalization"
+    ],
+    "critical": [
+      "Control ticks are correlated; independent episode/route evidence is very small"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "compare-ros-02": {
+    "expected": [
+      "Interval includes benefit and harm; nonsignificance does not prove equivalence",
+      "Equivalence requires a justified margin and suitable analysis",
+      "Conclusion is inconclusive for superiority/equivalence, not equality"
+    ],
+    "critical": [
+      "Interval includes benefit and harm; nonsignificance does not prove equivalence"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "route-audit": {
+    "expected": [
+      "Route to reval-audit",
+      "Identify assistance as a relevant uncertainty without imposing a full pipeline"
+    ],
+    "critical": [
+      "Route to reval-audit"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "route-score": {
+    "expected": [
+      "Route to reval-score",
+      "Define task criteria before requesting or comparing results"
+    ],
+    "critical": [
+      "Route to reval-score"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "route-unrelated": {
+    "expected": [
+      "Do not route to a robotics evaluation specialist",
+      "Address or redirect the generic testing request without demanding robot artifacts"
+    ],
+    "critical": [
+      "Do not route to a robotics evaluation specialist"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  },
+  "route-missing": {
+    "expected": [
+      "Do not assert readiness or fabricate evaluation findings",
+      "Request task/operating conditions and evidence; offer scoped evaluation triage"
+    ],
+    "critical": [
+      "Do not assert readiness or fabricate evaluation findings"
+    ],
+    "forbidden": [
+      "Invented measurements, execution, or human review",
+      "Unsupported hardware or deployment claims"
+    ],
+    "scoring": "Score each expected finding 0 absent/wrong, 1 partial, 2 correct with evidence. Mark critical misses and unsupported claims separately. Equivalent wording is accepted."
+  }
+}

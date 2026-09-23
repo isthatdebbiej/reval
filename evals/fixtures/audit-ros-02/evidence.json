@@ -1,0 +1,19 @@
+{
+  "provenance": "Synthetic fixture authored for Reval; not a measured robot experiment.",
+  "domain": "ros",
+  "A": {
+    "controller": "A",
+    "map": "warehouse-crowded",
+    "computer": "CPU",
+    "trials": 8,
+    "mean_success_time_s": 40
+  },
+  "B": {
+    "controller": "B",
+    "map": "warehouse-empty",
+    "computer": "GPU",
+    "trials": 8,
+    "mean_success_time_s": 25
+  },
+  "claim": "Controller B alone cuts travel time by 37.5%."
+}
