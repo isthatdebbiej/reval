@@ -18,6 +18,8 @@ installable. Its effectiveness is not established by this small diagnostic.
 | Live Claude Code behavior | Not run; executable unavailable on PATH |
 | Full repeated study | Not run; 288-run matrix prepared |
 | Independent human review | Not performed |
+| Fresh GitHub clone | Structural checks, nine tests, and frozen source hashes passed |
+| GitHub-source installer | All six Codex skills installed from isthatdebbiej/reval |
 | Physical robot experiments | Not performed or required for these offline checks |
 
 Installation is not proof of activation or correct behavior. The blocked run

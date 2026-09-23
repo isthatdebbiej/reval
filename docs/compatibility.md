@@ -33,9 +33,10 @@ A router-only installation can triage but cannot load absent specialists.
 
 ## Public repository
 
-The public repository is https://github.com/isthatdebbiej/reval. Replace the local source in the
-quickstart with the real GitHub repository URL and repeat the smoke test from
-a clean checkout. Public GitHub installation is not claimed before that test.
+Repository: [isthatdebbiej/reval](https://github.com/isthatdebbiej/reval).
+GitHub-source installation with skills@1.7.0 was verified for all six Codex skills
+after the initial push. Claude Code installation was verified from a local source;
+live Claude behavior remains untested.
 
 ## Activation
 

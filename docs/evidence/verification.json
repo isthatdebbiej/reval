@@ -1,6 +1,6 @@
 {
   "checked_at": "2026-09-23",
-  "status": "local-development-preview",
+  "status": "published-development-preview",
   "structural": {
     "skills": 6,
     "cases": 24,
@@ -40,5 +40,13 @@
     "full_study_completed": false,
     "independent_human_review": false
   },
-  "claims": "Installation and diagnostic evidence only; no effectiveness advantage or physical-robot claim."
+  "claims": "Installation and diagnostic evidence only; no effectiveness advantage or physical-robot claim.",
+  "github_source": {
+    "verified_commit": "ddb7492",
+    "repository": "https://github.com/isthatdebbiej/reval",
+    "codex_skills_installed": 6,
+    "source_hashes_verified": true,
+    "fresh_clone_tests": 9,
+    "checked_at": "2026-09-23T06:45:49.7597137Z"
+  }
 }
