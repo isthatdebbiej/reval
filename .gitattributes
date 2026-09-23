@@ -1,0 +1,3 @@
+* text=auto eol=lf
+/docs/evidence/pilot/** -text
+/docs/demo.cast -text

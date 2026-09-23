@@ -1,6 +1,6 @@
 {
   "algorithm": "sha256",
-  "digest": "81cced8f6028fab66630eb608e0f44493d196fc4fb68d137bd46efa0feab8eef",
+  "digest": "08f7915aec25b8a9f18f164ae1c2408b653633456ed4b1dc0807c70e45d28efe",
   "files": {
     "evals/cases.json": "959992c30c2dcb84f7238a9ac2610be04d39c0aabb1c0bb99cdb98f9b75f3328",
     "evals/fixtures/audit-learning-01/evidence.json": "e17bff6fab63eec4e4b2c07f685933ca89bfdae4eaee485c5a4de359ff7dd9e8",
@@ -29,13 +29,13 @@
     "evals/fixtures/score-ros-02/evidence.json": "f6e433a4be81f4feb698b674736f558da9b0cc84f23b6b4318cdf57f7351bae3",
     "evals/private/rubrics.json": "90b218c691970d440c8a6a3745c41ce92cd8e9ddb2e82a22a620b2af63c1dc6f",
     "package.json": "fd31467695fa5008f7ecc52dee07e82359e2965026d887502ed8e65868b981a9",
-    "scripts/archive-pilot.mjs": "b0b3ba4049c1eaf8a9113c40c79432000353fbd0e08828d1578493dbe13b7df5",
-    "scripts/check.mjs": "59fdba476ee63b6a76b18d3db76decf1ea48d417623b892e2f26f7be026b428a",
+    "scripts/archive-pilot.mjs": "cc4a834b89d32a458ea2ffa0a13d15b86cb8336008874e2e067f4c710f261b4a",
+    "scripts/check.mjs": "6068e8748983d8b004c96d2f8dd0322d9f12f025c3602ce96428a1b57efb2ef2",
     "scripts/eval.mjs": "561d1581b7e3ea2f856f88349aead4eb0415bf02efa168eb902fb81abd0c37bd",
-    "scripts/lib.mjs": "2e39baeb4f419a07a187f0f43e0673608900ea0898ce711eace3a06e9b0e97e2",
-    "scripts/record-demo.mjs": "e17c92be66bc539d32d5719cc4633b494a84f9804d5de84c14c83743ffaef28b",
-    "scripts/review.mjs": "2a31250903bafe7fc353cb5739d20f663d87e4b1a74ec7422174a78e859dfa1b",
-    "scripts/run.mjs": "455cb24cc22634d721d275141d1a5781ebdd96c97a231e5fb41ba7b48b8ce060",
+    "scripts/lib.mjs": "9fb39cfe3773cd3253b532a35f219a1781370b08dc3884bd840c4eeb25453a35",
+    "scripts/record-demo.mjs": "7328e65de9f5cb8964d6dc1e9ef291d593b6c798a6ea4892fd1b1791409e50a2",
+    "scripts/review.mjs": "156e69a5b437746d7ad9bd57f07c78c23abc4b04e2760c001f7e33a6cd3cd073",
+    "scripts/run.mjs": "2f053c4b624c363e82f30186dcbbec423ed18849bea7c20af47a82205da9884f",
     "skills/reval-audit/SKILL.md": "c6b8bc0ce6aaf49f587d514aa610a85b2d234083357990472030c7db08bad53e",
     "skills/reval-audit/references/audit.md": "84948bdde189c65aed84c0daf0567804510c73b504750a30a78d11a23cdba595",
     "skills/reval-cases/SKILL.md": "3b136ffe3c241a62b5ba2371db49a30d664d8a4d6df834b41b27477ced7a471c",
@@ -47,6 +47,6 @@
     "skills/reval-score/SKILL.md": "d5a0c2cbf111becdbdc35a399719b316ef9b34b12d1f3bcc30ee9b9df1438af8",
     "skills/reval-score/references/calibration.md": "f892e0b3c86d2e546c8ab1bb9738fbf523aea40a7f6cad44449c3ee69a9cafbe",
     "skills/reval/SKILL.md": "729ce94233f6bb9e74b8f3fc364f706586c6d8c60b51cc78b1608bc1fa40d10c",
-    "tests/reval.test.mjs": "7ec9e160d60f7dbbc26641304750a815c7bb9a5c5439e21b64065459d2d069ae"
+    "tests/reval.test.mjs": "5990305a6781e7a1227c9da03747bcb3b168c2c39dcfcf81f616b230cca72d4e"
   }
 }
